@@ -13,7 +13,7 @@ lcd=LCD()
 my_gps = MicropyGPS()
 cmd_beg= 'espeak '
 
-mydb = mysql.connect(host="www.remotemysql.com", user="z05MTRZiao", passwd="NOHXoXfXjV", database="z05MTRZiao")
+mydb = mysql.connect(host="www.remotemysql.com", user="z05MTRZiao", passwd="SLhpWa5v61", database="z05MTRZiao") #"NOHXoXfXjV"
 if(mydb):
     print("Connection to DataBase Successful")
 else:
